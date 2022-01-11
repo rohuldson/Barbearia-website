@@ -10,6 +10,12 @@ footer {
   padding: 20px 0;
 }
 
+h1.titulo {
+  font-size: 2.3rem;
+  padding: 0 10px;
+  margin-left: 0;
+}
+
 .header-container,
 .footer-container {
   width: 940px;
@@ -45,8 +51,12 @@ nav li a:hover {
 }
 
 main {
-  padding: 60px;
+  padding: 60px 0;
+  width: 940px;
+  margin: 0 auto;
+  overflow: hidden;
 }
+
 .produtos {
   margin: 0 auto;
   max-width: 940px;
@@ -124,4 +134,87 @@ footer .footer-container a {
 
 footer .img-footer {
   width: 115px;
+}
+
+/* FORM */
+form {
+  width: 50%;
+  margin: 40px 0;
+}
+
+form label,
+form p {
+  display: block;
+  font-size: 18px;
+  margin: 0 0 10px;
+  font-weight: bold;
+}
+
+.input-padrao {
+  width: 80%;
+  padding: 10px 25px;
+  margin: 0 0 20px;
+}
+
+.news {
+  margin: 20px 0;
+}
+/* maps */
+.container {
+  display: flex;
+  align-items: center;
+  /* padding: 10px; */
+}
+
+.map-frame {
+  width: 50%;
+}
+
+fieldset {
+  width: 375px;
+  padding: 10px;
+  border: 0;
+}
+
+.submit-btn {
+  color: #fff;
+  background: #000;
+  border: none;
+  padding: 15px 20px;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #c78c19;
+
+  /* outline-offset: -1px; */
+  outline: 2px solid #161514;
+}
+
+.img-align {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Table area */
+
+table {
+  margin: 20px 40px;
+}
+
+table thead {
+  background-color: #555555;
+  color: #fff;
+  font-weight: bold;
+}
+
+table td,
+th {
+  border: 1px solid #000;
+  padding: 10px 15px;
 }

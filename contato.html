@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato - Barbearia Dev</title>
+    <link rel="stylesheet" href="produtos.css" type="text/css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <div class="img-align">
+          <a href="index.html">
+            <img
+              src="assets/image/logo.png"
+              alt="logo da barbearia"
+              class="logo"
+            />
+          </a>
+          <h1 class="titulo">Barbearia</h1>
+        </div>
+
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <form action="">
+          <label for="fullname">Nome Completo</label>
+          <input
+            type="text"
+            id="fullname"
+            class="input-padrao"
+            placeholder="Meu nome inteiro "
+            required
+          />
+
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            id="email"
+            class="input-padrao"
+            placeholder="email@email.com"
+            required
+          />
+
+          <label for="phone">Telefone</label>
+          <input
+            type="tel"
+            id="phone"
+            class="input-padrao"
+            placeholder="(xx)xxxxx-xxxx"
+            required
+          />
+
+          <label for="message">Nos envie uma menssagem </label>
+          <textarea
+            name="message"
+            id=""
+            cols="49"
+            rows="10"
+            class="input-padrao"
+            placeholder="Olá, tudo bem?"
+            required
+          ></textarea>
+
+          <fieldset class="radio-section">
+            <legend>Como prefere ser contatado?</legend>
+            <label for="radio-email">
+              <input
+                type="radio"
+                value="email"
+                id="radio-email"
+                name="contato"
+              />
+              E-mail</label
+            >
+
+            <label for="radio-telefone">
+              <input
+                type="radio"
+                value="telefone"
+                id="radio-telefone"
+                name="contato"
+              />
+              Ligação</label
+            >
+
+            <label for="radio-whatsapp"
+              ><input
+                type="radio"
+                value="whatsapp"
+                id="radio-whatsapp"
+                name="contato"
+                checked
+              />
+              WhatsApp</label
+            >
+          </fieldset>
+
+          <fieldset class="select-area">
+            <legend>Qual horário prefere ser atendido?</legend>
+            <select name="" id="">
+              <option value="manha">Manhã</option>
+              <option value="tarde">Tarde</option>
+              <option value="noite">Noite</option>
+            </select>
+          </fieldset>
+
+          <div class="news">
+            <label
+              ><input type="checkbox" checked /> Gostaria de receber nossas
+              novidades por e-mail</label
+            >
+          </div>
+
+          <input type="submit" value="Enviar" class="input-padrao submit-btn" />
+        </form>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Dia</th>
+            <th>Horário</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Segunda</td>
+            <td>9h às 19h</td>
+          </tr>
+
+          <tr>
+            <td>Quarta</td>
+            <td>9h às 19h</td>
+          </tr>
+          <tr>
+            <td>Sexta</td>
+            <td>9h às 19h</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <img src="./assets/image/logo-branco.png" alt="" class="img-footer" />
+        <p class="copyright">
+          &copy Todos os direitos reservados <strong>Barbearia Dev</strong> -
+          2022
+        </p>
+        <p>
+          Feito com amor em forma de código<a
+            href="https://github.com/rohuldson"
+            target="_blank"
+          >
+            Ronald Silva</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
